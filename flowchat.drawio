@@ -1,0 +1,77 @@
+<mxfile host="65bd71144e">
+    <diagram id="rRbzi94DjYtUf3qIHJvX" name="Page-1">
+        <mxGraphModel dx="848" dy="466" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="92" style="edgeStyle=none;html=1;" parent="1" source="2" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="180" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="2" value="Start" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="270" y="70" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="97" style="edgeStyle=none;html=1;entryX=0.569;entryY=-0.057;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="94" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="318.28" y="276.58000000000004" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="94" value="get decimal_number" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="118" value="&lt;div style=&quot;color: rgb(225 , 228 , 232) ; background-color: rgb(36 , 41 , 46) ; font-family: &amp;#34;comic mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-weight: normal ; font-size: 20px ; line-height: 27px&quot;&gt;&lt;div style=&quot;font-family: &amp;#34;comic mono&amp;#34; , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 27px&quot;&gt;&lt;span style=&quot;color: #f97583&quot;&gt;def&lt;/span&gt; &lt;span style=&quot;color: #b392f0&quot;&gt;round_off_number&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="400" y="50" width="410" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="155" style="edgeStyle=none;html=1;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="320" y="380" as="targetPoint"/>
+                        <mxPoint x="320" y="340" as="sourcePoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="158" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=12;fontColor=#F0F0F0;" parent="1" edge="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="319.5" y="440" as="sourcePoint"/>
+                        <mxPoint x="319.5" y="490" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="172" value="Stop" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="1" vertex="1">
+                    <mxGeometry x="268.75" y="770" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="192" value="get decimal_places" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
+                    <mxGeometry x="258.75" y="250" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="193" value="rounded_off = decimal_number[0] * (10**decimal_places)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="258.75" y="340" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="199" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;startArrow=none;" edge="1" parent="1" source="200" target="172">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="194" value="rounded_off = rounded_off / (10**decimal_places)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="258.75" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="198" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="195" target="194">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="195" value="rounded_off = int(rounded_off)" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="510" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="197" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="196" target="195">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="196" value="rounded_off = rounded_off + 0.5" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="258.75" y="430" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="200" value="decimal_number[0] = rounded_off" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="258.75" y="680" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="201" value="" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;" edge="1" parent="1" source="194" target="200">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="318.75" y="650" as="sourcePoint"/>
+                        <mxPoint x="318.75" y="770" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
