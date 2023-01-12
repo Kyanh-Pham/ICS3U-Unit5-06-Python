@@ -6,7 +6,7 @@
 from typing import List
 
 
-def round_off_number(decimal_number: List[float], decimal_places: int) -> list:
+def round_off_number(decimal_number: List[float], decimal_places: int) -> None:
     # This function rounds off decimal numbers
 
     rounded_off = decimal_number[0] * (10**decimal_places)
